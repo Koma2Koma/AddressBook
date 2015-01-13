@@ -7,12 +7,14 @@ class ContactsController < ApplicationController
   end
 
   def new
+    @contact = Contact.new
   end
 
   def edit
   end
 
   private
+
 
 
 end
