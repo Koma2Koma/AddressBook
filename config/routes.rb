@@ -1,7 +1,7 @@
 Rails.application.routes.draw do
   get 'contacts/show'
 
-  get 'contacts/index'
+  root 'contacts#index'
 
   get 'contacts/new'
 
